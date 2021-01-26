@@ -3,7 +3,7 @@
 \docType{data}
 \name{badeplaetze_zh}
 \alias{badeplaetze_zh}
-\title{Swimming spots” (Badenplätze) in the Canton of Zurich}
+\title{Swimming spots (Badenplätze) in the Canton of Zurich}
 \format{
 Simple feature collection 71 features and 6 fields
 \describe{
@@ -20,10 +20,8 @@ badeplaetze_zh
 }
 \description{
 The dataset contains 71 swimming spots within the Canton of Zürich
-TODO: Add more description here:
-- what is the interval?
-- where was the temperature measured
-- add description of _legend
+}
+\details{
 1
 }
 \keyword{datasets}
