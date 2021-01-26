@@ -1,9 +1,10 @@
 reference:
-- title: Datasets
+- title: Datasets for the Canton of Zurich
   contents:
   - badeplaetze_zh
+  - haltestelle_bahn
 
-- title: Futher Datasets
+- title: Further Datasets
   contents:
   - gemeindegrenzen_zh
   - meteo
