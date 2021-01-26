@@ -70,4 +70,4 @@
 #'
 #' }
 #' @source \urlhttps://map.geo.admin.ch}
-"ARE_waedenswil"
+"are_waedenswil"
