@@ -1,12 +1,22 @@
 reference:
-- title: Datasets for the Canton of Zurich
+- title: Raster
+  contents:
+
+
+- title: Vector
+- subtitle: Point datasets
   contents:
   - badeplaetze_zh
   - haltestelle_bahn
-
-- title: Further Datasets
+- subtitle: Line datasets
+  contents:
+- subtitle: Polygon datasets
   contents:
   - gemeindegrenzen_zh
   - meteo
   - meteo_legend
   - are_waedenswil
+
+
+
+
