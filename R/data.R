@@ -57,13 +57,10 @@
 
 #' Public Transport connection quality in the city of Wädenswil
 #'
-#' The dataset contains a simple feature collection with 13 features and 5 fields
-#'
-#'
 #'
 #'
 #'1
-#' @format Simple feature collection 71 features and 6 fields
+#' @format Simple feature collection 13 features and 5 fields
 #' \describe{
 #'   \item{KLASSE}{Transport connection categorised in 4 main classes}
 #'
@@ -71,3 +68,22 @@
 #' }
 #' @source \urlhttps://map.geo.admin.ch}
 "are_waedenswil"
+
+
+#' Train stations in Switzerland
+#'
+#' The dataset contains a collection with point features that represents
+#' the locations of the train stations accross the country of Switzerland
+#'
+#'
+#'
+#'
+#'1
+#' @format Simple feature collection with 3134 features and 16 fields
+#' \describe{
+#'   \item{name}{Name of the train station}
+#'
+#'
+#' }
+#' @source \urlhttps://map.geo.admin.ch}
+"haltestelle_bahn"
