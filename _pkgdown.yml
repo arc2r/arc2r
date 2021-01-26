@@ -15,7 +15,7 @@ reference:
   - gemeindegrenzen_zh
   - are_waedenswil
 
-- title: text files (csv, xlsx)
+- title: files (csv, txt, xlsx)
   contents:
   - meteo
   - meteo_legend
