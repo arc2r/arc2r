@@ -19,9 +19,9 @@
 "gemeindegrenzen_zh"
 
 
-#' Meteorological Data from Whether Stations in Switzerland
+#' Meteorological Data from Weather Stations in Switzerland
 #'
-#' The dataset contains temerature data ranging from 2000 to 2005
+#' The dataset contains temperature data ranging from 2000 to 2005
 #' TODO: Add more description here:
 #' - what is the interval?
 #' - where was the temperature measured
@@ -35,3 +35,20 @@
 #' }
 #' @source \url{https://gate.meteoswiss.ch/idaweb/}
 "meteo"
+
+#' Swimming spots” (Badenplätze) in the Canton of Zurich
+#'
+#' The dataset contains 71 swimming spots within the Canton of Zürich
+#' TODO: Add more description here:
+#' - what is the interval?
+#' - where was the temperature measured
+#' - add description of _legend
+#'
+#' @format Simple feature collection 71 features and 6 fields
+#' \describe{
+#'   \item{x_coord}{X coordinate in CH1903+LV95}
+#'   \item{y_coord}{Y coordinate in CH1903+LV95}
+#'   \item{gewaesser}{Water "body" name near to which the "spot lies"}
+#' }
+#' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
+"opendata.swiss"
