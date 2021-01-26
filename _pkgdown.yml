@@ -16,6 +16,7 @@ reference:
   - are_waedenswil
 
 - title: text files (csv, xlsx)
+  contents:
   - meteo
   - meteo_legend
 
