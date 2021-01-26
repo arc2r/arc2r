@@ -13,9 +13,11 @@ reference:
 - subtitle: Polygon datasets
   contents:
   - gemeindegrenzen_zh
+  - are_waedenswil
+
+- title: text files (csv, xlsx)
   - meteo
   - meteo_legend
-  - are_waedenswil
 
 
 
