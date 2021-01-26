@@ -17,3 +17,21 @@
 #' }
 #' @source \url{http://maps.zh.ch/?topic=ortho19ZH&showtab=ogddownload}
 "gemeindegrenzen_zh"
+
+
+#' Meteorological Data from Whether Stations in Switzerland
+#'
+#' The dataset contains temerature data ranging from 2000 to 2005
+#' TODO: Add more description here:
+#' - what is the interval?
+#' - where was the temperature measured
+#' - add description of _legend
+#'
+#' @format A tibble object with 1262615 features and 3 variables
+#' \describe{
+#'   \item{stn}{The Station where the temperature was measured}
+#'   \item{time}{time in the format YYYYMMDDHH}
+#'   \item{tre200h0}{Temperature in degrees celcius}
+#' }
+#' @source \url{https://gate.meteoswiss.ch/idaweb/}
+"meteo"
