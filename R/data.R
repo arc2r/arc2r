@@ -36,13 +36,13 @@
 #' @source \url{https://gate.meteoswiss.ch/idaweb/}
 "meteo"
 
-#' Swimming spots” (Badenplätze) in the Canton of Zurich
+#' Swimming spots (Badenplätze) in the Canton of Zurich
 #'
 #' The dataset contains 71 swimming spots within the Canton of Zürich
-#' TODO: Add more description here:
-#' - what is the interval?
-#' - where was the temperature measured
-#' - add description of _legend
+#'
+#'
+#'
+#'
 #'1
 #' @format Simple feature collection 71 features and 6 fields
 #' \describe{
@@ -52,3 +52,21 @@
 #' }
 #' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
 "badeplaetze_zh"
+
+
+#' Public Transport connection quality in the city of Wädenswil
+#'
+#' The dataset contains a simple feature collection with 13 features and 5 fields
+#'
+#'
+#'
+#'
+#'1
+#' @format Simple feature collection 71 features and 6 fields
+#' \describe{
+#'   \item{KLASSE}{Transport connection categorised in 4 main classes}
+#'
+#'
+#' }
+#' @source \urlhttps://map.geo.admin.ch}
+"ARE_waedenswil"
