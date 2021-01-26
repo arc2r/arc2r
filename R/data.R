@@ -23,6 +23,7 @@
 #'
 #' The dataset contains temperature data ranging from 2000 to 2005
 #' TODO: Add more description here:
+#'
 #' - what is the interval?
 #' - where was the temperature measured
 #' - add description of _legend

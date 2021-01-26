@@ -3,7 +3,7 @@
 \docType{data}
 \name{meteo}
 \alias{meteo}
-\title{Meteorological Data from Whether Stations in Switzerland}
+\title{Meteorological Data from Weather Stations in Switzerland}
 \format{
 A tibble object with 1262615 features and 3 variables
 \describe{
@@ -19,8 +19,10 @@ A tibble object with 1262615 features and 3 variables
 meteo
 }
 \description{
-The dataset contains temerature data ranging from 2000 to 2005
+The dataset contains temperature data ranging from 2000 to 2005
 TODO: Add more description here:
+}
+\details{
 - what is the interval?
 - where was the temperature measured
 - add description of _legend
