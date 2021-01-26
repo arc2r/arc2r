@@ -70,9 +70,9 @@
 "are_waedenswil"
 
 
-#' Train stations in Switzerland
+#' Train stations locations in Switzerland
 #'
-#' The dataset contains a collection with point features that represents
+#' The dataset contains a collection of point features that represent
 #' the locations of the train stations accross the country of Switzerland
 #'
 #'
