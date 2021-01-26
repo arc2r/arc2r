@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Gemeindegrenzen im Kanton Zürich — gemeindegrenzen_zh • burningData</title>
+<title>Swimming spots” (Badenplätze) in the Canton of Zurich — badeplaetze_zh • burningData</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,13 @@
 
 
 
-<meta property="og:title" content="Gemeindegrenzen im Kanton Zürich — gemeindegrenzen_zh" />
-<meta property="og:description" content="This dataset contains the boarder for the municipalities in the canton of Zurich
-The data was obtained from maps.zh.ch" />
+<meta property="og:title" content="Swimming spots” (Badenplätze) in the Canton of Zurich — badeplaetze_zh" />
+<meta property="og:description" content="The dataset contains 71 swimming spots within the Canton of Zürich
+TODO: Add more description here:
+- what is the interval?
+- where was the temperature measured
+- add description of _legend
+1" />
 
 
 
@@ -104,37 +108,35 @@ The data was obtained from maps.zh.ch" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Gemeindegrenzen im Kanton Zürich</h1>
+    <h1>Swimming spots” (Badenplätze) in the Canton of Zurich</h1>
     
-    <div class="hidden name"><code>gemeindegrenzen_zh.Rd</code></div>
+    <div class="hidden name"><code>badeplaetze_zh.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This dataset contains the boarder for the municipalities in the canton of Zurich
-The data was obtained from maps.zh.ch</p>
+    <p>The dataset contains 71 swimming spots within the Canton of Zürich
+TODO: Add more description here:
+- what is the interval?
+- where was the temperature measured
+- add description of _legend
+1</p>
     </div>
 
-    <pre class="usage"><span class='va'>gemeindegrenzen_zh</span></pre>
+    <pre class="usage"><span class='va'>badeplaetze_zh</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A sf object with 167 features and 10 variables</p><dl>
-  <dt>BFS</dt><dd><p>BFS Number</p></dd>
-  <dt>ARPS</dt><dd><p>Add description here</p></dd>
-  <dt>BEZIRKSNAME</dt><dd><p>Add description here</p></dd>
-  <dt>ART_TEXT</dt><dd><p>Add description here</p></dd>
-  <dt>GEMEINDENAME</dt><dd><p>Add description here</p></dd>
-  <dt>AREA_ROUND</dt><dd><p>Add description here</p></dd>
-  <dt>SHAPE_AREA</dt><dd><p>Add description here</p></dd>
-  <dt>SHAPE_LEN</dt><dd><p>Add description here</p></dd>
-  <dt>geom</dt><dd><p>Add description here</p></dd>
+    <p>Simple feature collection 71 features and 6 fields</p><dl>
+  <dt>x_coord</dt><dd><p>X coordinate in CH1903+LV95</p></dd>
+  <dt>y_coord</dt><dd><p>Y coordinate in CH1903+LV95</p></dd>
+  <dt>gewaesser</dt><dd><p>Water "body" name near to which the "spot lies"</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='http://maps.zh.ch/?topic=ortho19ZH&amp;showtab=ogddownload'>http://maps.zh.ch/?topic=ortho19ZH&amp;showtab=ogddownload</a></p>
+    <p><a href='https://opendata.swiss/de/dataset/badeplatze1'>https://opendata.swiss/de/dataset/badeplatze1</a></p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
