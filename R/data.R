@@ -43,7 +43,7 @@
 #' - what is the interval?
 #' - where was the temperature measured
 #' - add description of _legend
-#'
+#'1
 #' @format Simple feature collection 71 features and 6 fields
 #' \describe{
 #'   \item{x_coord}{X coordinate in CH1903+LV95}
@@ -51,4 +51,4 @@
 #'   \item{gewaesser}{Water "body" name near to which the "spot lies"}
 #' }
 #' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
-"opendata.swiss"
+"badeplaetze_zh"
