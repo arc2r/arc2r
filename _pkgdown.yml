@@ -17,6 +17,7 @@ reference:
 - subtitle: Polygon datasets
   contents:
   - gemeindegrenzen_zh
+  - gemeinde_zh
   - are_waedenswil
 
 - title: files (csv, txt, xlsx)
