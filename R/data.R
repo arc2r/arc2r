@@ -171,3 +171,17 @@
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch}
 "zweitwohnung_gemeinden"
+
+
+#' Eire
+#'
+#' The dataset depicts the counties of the country of Ireland. The counties of Ireland are historic administrative divisions of the island.
+#'
+#'
+#' @format Simple feature collection with 26 features and 10 fields
+#' \describe{
+#'   \item{names}{Name of each of the county}
+#'   \item{INCOME}{Average income of the respective county}
+#' }
+#' @source \urlhttps {https://cran.r-project.org/web/packages/spData/index.html}
+"eire"
