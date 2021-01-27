@@ -28,4 +28,7 @@ gemeindegrenzen_zh
 This dataset contains the boarder for the municipalities in the canton of Zurich
 The data was obtained from maps.zh.ch
 }
+\examples{
+plot(sf::st_geometry(gemeindegrenzen_zh))
+}
 \keyword{datasets}

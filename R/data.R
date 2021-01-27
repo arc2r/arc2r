@@ -16,6 +16,8 @@
 #'   \item{geom}{Add description here}
 #' }
 #' @source \url{http://maps.zh.ch/?topic=ortho19ZH&showtab=ogddownload}
+#' @examples
+#' plot(sf::st_geometry(gemeindegrenzen_zh))
 "gemeindegrenzen_zh"
 
 
@@ -49,6 +51,7 @@
 #'   \item{gewaesser}{Water "body" name near to which the "spot lies"}
 #' }
 #' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
+#' plot(sf::st_geometry(badeplaetze_zh))
 "badeplaetze_zh"
 
 
@@ -61,7 +64,8 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://s.geo.admin.ch/7e80a8bd28}
+#' @source \url{https://s.geo.admin.ch/7e80a8bd28}
+#' plot(sf::st_geometry(are_waedenswil))
 "are_waedenswil"
 
 
@@ -77,7 +81,8 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch}
+#' @source \url{https://map.geo.admin.ch}
+#' plot(sf::st_geometry(haltestelle_bahn))
 "haltestelle_bahn"
 
 
@@ -93,7 +98,8 @@
 #'
 #'
 #' }
-#' @source \urlhttps {http://maps.zh.ch}
+#' @source \url{http://maps.zh.ch}
+#' plot(sf::st_geometry(veloparkierungsanlagen_zh))
 "veloparkierungsanlagen_zh"
 
 
@@ -107,7 +113,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch}
+#' @source \url{https://map.geo.admin.ch}
 "mountainBikes_routes"
 
 
@@ -134,7 +140,7 @@
 #' \describe{
 #'   \item{}{}
 #' }
-#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+#' @source \url{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 "pop_india2010"
 
 

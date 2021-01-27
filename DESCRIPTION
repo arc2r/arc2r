@@ -1,18 +1,19 @@
 Package: burningData
 Type: Package
 Title: Provides the GeoData for the BurningBridges Book
-Version: 0.1.15
+Version: 0.1.16
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
 Description: In the book "BurningBridges"
-        (https://github.com/ratnanil/spatialR_for_ArcGIS_Users) We
+        (https://github.com/ratnanil/spatialR_for_ArcGIS_Users) we
         describe methods how ArcGIS Geoprocessing Tools can be
         replicated using only R and opensource packages (no
         R-Arcgis-Bridge, hence the name).
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: raster
+Imports: raster, sf
+Suggests: ggplot2
 Depends: R (>= 2.10)
 RoxygenNote: 7.1.1
 Date: 2021-01-27
