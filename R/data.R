@@ -54,6 +54,7 @@
 #'   \item{gewaesser}{Water "body" name near to which the "spot lies"}
 #' }
 #' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
+#' plot(sf::st_geometry(badeplaetze_zh))
 "badeplaetze_zh"
 
 
@@ -69,6 +70,7 @@
 #'
 #' }
 #' @source \url{https://s.geo.admin.ch/7e80a8bd28}
+#' plot(sf::st_geometry(are_waedenswil))
 "are_waedenswil"
 
 
@@ -88,6 +90,7 @@
 #'
 #' }
 #' @source \url{https://map.geo.admin.ch}
+#' plot(sf::st_geometry(haltestelle_bahn))
 "haltestelle_bahn"
 
 
@@ -107,6 +110,7 @@
 #'
 #' }
 #' @source \url{http://maps.zh.ch}
+#' plot(sf::st_geometry(veloparkierungsanlagen_zh))
 "veloparkierungsanlagen_zh"
 
 
