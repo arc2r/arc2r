@@ -1,11 +1,7 @@
 Package: burningData
 Type: Package
 Title: Provides the GeoData for the BurningBridges Book
-<<<<<<< HEAD
-Version: 0.1.11
-=======
-Version: 0.1.14
->>>>>>> 1112077ebc50cc99c77e779e5ecdcb475d69c15c
+Version: 0.1.15
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
 Description: In the book "BurningBridges"
@@ -16,7 +12,8 @@ Description: In the book "BurningBridges"
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: raster
+Imports: raster, sf
+Suggests: ggplot2
 Depends: R (>= 2.10)
 RoxygenNote: 7.1.1
 Date: 2021-01-27

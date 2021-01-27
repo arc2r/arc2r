@@ -68,7 +68,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://s.geo.admin.ch/7e80a8bd28}
+#' @source \url{https://s.geo.admin.ch/7e80a8bd28}
 "are_waedenswil"
 
 
@@ -87,7 +87,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch}
+#' @source \url{https://map.geo.admin.ch}
 "haltestelle_bahn"
 
 
@@ -106,7 +106,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {http://maps.zh.ch}
+#' @source \url{http://maps.zh.ch}
 "veloparkierungsanlagen_zh"
 
 
@@ -124,7 +124,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch}
+#' @source \url{https://map.geo.admin.ch}
 "mountainBikes_routes"
 
 
@@ -159,5 +159,5 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+#' @source \url{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 "pop_india2010"
