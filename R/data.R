@@ -169,5 +169,5 @@
 #'   \item{kanton}{Name of the Canton to which the municipality belongs}
 #'   \item{bezirk}{Name of the district (Bezirk)}
 #' }
-#' @source \urlhttps {https://maps.zh.ch/}
-"gemeinde_zh"
+#' @source \urlhttps {https://map.geo.admin.ch}
+"zweitwohnung_gemeinden"
