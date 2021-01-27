@@ -44,7 +44,7 @@
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection 71 features and 6 fields
 #' \describe{
 #'   \item{x_coord}{X coordinate in CH1903+LV95}
@@ -59,7 +59,7 @@
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection 13 features and 5 fields
 #' \describe{
 #'   \item{KLASSE}{Transport connection categorised in 4 main classes}
@@ -78,7 +78,7 @@
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection with 3134 features and 16 fields
 #' \describe{
 #'   \item{name}{Name of the train station}
