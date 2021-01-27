@@ -1,11 +1,25 @@
 reference:
-- title: Datasets
+- title: Raster
+  contents:
+
+
+- title: Vector
+- subtitle: Point datasets
   contents:
   - badeplaetze_zh
-
-- title: Futher Datasets
+  - haltestelle_bahn
+- subtitle: Line datasets
+  contents:
+- subtitle: Polygon datasets
   contents:
   - gemeindegrenzen_zh
+  - are_waedenswil
+
+- title: files (csv, txt, xlsx)
+  contents:
   - meteo
   - meteo_legend
-  - are_waedenswil
+
+
+
+
