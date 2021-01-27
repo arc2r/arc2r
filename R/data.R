@@ -42,9 +42,6 @@
 #' The dataset contains 71 swimming spots within the Canton of Zürich
 #'
 #'
-#'
-#'
-#'
 #' @format Simple feature collection 71 features and 6 fields
 #' \describe{
 #'   \item{x_coord}{X coordinate in CH1903+LV95}
@@ -56,8 +53,6 @@
 
 
 #' Public Transport connection quality in the city of Wädenswil
-#'
-#'
 #'
 #'
 #' @format Simple feature collection 13 features and 5 fields
@@ -76,9 +71,6 @@
 #' the locations of the train stations across the country of Switzerland
 #'
 #'
-#'
-#'
-#'
 #' @format Simple feature collection with 3134 features and 16 fields
 #' \describe{
 #'   \item{name}{Name of the train station}
@@ -95,9 +87,6 @@
 #' the locations of the bicycle parking facilities in the canton of Zurich
 #'
 #'
-#'
-#'
-#'
 #' @format Simple feature collection with 511 features and 28 fields
 #' \describe{
 #'   \item{name}{}
@@ -111,10 +100,6 @@
 #' Mountain bike routes in Switzerland
 #'
 #' The dataset contains a line spatial feature that depicts all the mountain bike routes in Switzerland
-#'
-#'
-#'
-#'
 #'
 #' @format Simple feature collection with 286 features and 29 fields
 #' \describe{
@@ -131,9 +116,6 @@
 #' The dataset depicts India’s population at 2000 timestamp
 #'
 #'
-#'
-#'
-#'
 #' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
 #' \describe{
 #'   \item{}{}
@@ -148,14 +130,23 @@
 #' The dataset depicts India’s population at 2010 timestamp
 #'
 #'
-#'
-#'
-#'
 #' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
 #' \describe{
 #'   \item{}{}
-#'
-#'
 #' }
 #' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 "pop_india2010"
+
+
+#' Municipalities (Gemeinden) in the canton of Zurich
+#'
+#' The dataset depicts all the municipalities (Gemeinden) in the canton of Zurich
+#'
+#'
+#' @format Simple feature collection with 166 features and 7 fields
+#' \describe{
+#'   \item{gemeindena}{Name of the Municipality (Gemeinde)}
+#'   \item{bezirksna}{Name of the District (Bezirk)}
+#' }
+#' @source \urlhttps {https://maps.zh.ch/}
+"gemeinde_zh"

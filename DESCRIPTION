@@ -1,7 +1,7 @@
 Package: burningData
 Type: Package
 Title: Provides the GeoData for the BurningBridges Book
-Version: 0.1.14
+Version: 0.1.15
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
 Description: In the book "BurningBridges"
