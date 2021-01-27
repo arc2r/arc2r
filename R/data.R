@@ -85,7 +85,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {://map.geo.admin.ch}
+#' @source \urlhttps {https://map.geo.admin.ch}
 "haltestelle_bahn"
 
 
@@ -100,9 +100,62 @@
 #'
 #' @format Simple feature collection with 511 features and 28 fields
 #' \describe{
-#'   \item{name}{Name of the train station}
+#'   \item{name}{}
 #'
 #'
 #' }
 #' @source \urlhttps {http://maps.zh.ch}
 "veloparkierungsanlagen_zh"
+
+
+#' Mountain bike routes in Switzerland
+#'
+#' The dataset contains a line spatial feature that depicts all the mountain bike routes in Switzerland
+#'
+#'
+#'
+#'
+#'
+#' @format Simple feature collection with 286 features and 29 fields
+#' \describe{
+#'   \item{beschreib}{Description of the mountain bike route - Starting point to End point}
+#'
+#'
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch}
+"mountainBikes_routes"
+
+
+#' India's Population in 2000
+#'
+#' The dataset depicts India’s population at 2000 timestamp
+#'
+#'
+#'
+#'
+#'
+#' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
+#' \describe{
+#'   \item{}{}
+#'
+#'
+#' }
+#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+"pop_india2000"
+
+#' India's Population in 2010
+#'
+#' The dataset depicts India’s population at 2010 timestamp
+#'
+#'
+#'
+#'
+#'
+#' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
+#' \describe{
+#'   \item{}{}
+#'
+#'
+#' }
+#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+"pop_india2010"
