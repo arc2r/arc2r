@@ -16,6 +16,8 @@
 #'   \item{geom}{Add description here}
 #' }
 #' @source \url{http://maps.zh.ch/?topic=ortho19ZH&showtab=ogddownload}
+#' @examples
+#' plot(sf::st_geometry(gemeindegrenzen_zh))
 "gemeindegrenzen_zh"
 
 
