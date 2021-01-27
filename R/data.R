@@ -156,3 +156,18 @@
 #' }
 #' @source \urlhttps {https://maps.zh.ch/}
 "gemeinde_zh"
+
+
+#' Zweitwohnung_Gemeinden
+#'
+#' The dataset depicts all the municipalities (Gemeinden) with the respective information about the Second Home ..
+#'
+#'
+#' @format Simple feature collection with 2354 features and 14 fields
+#' \describe{
+#'   \item{gemeinde}{Name of the Municipality (Gemeinde)}
+#'   \item{kanton}{Name of the Canton to which the municipality belongs}
+#'   \item{bezirk}{Name of the district (Bezirk)}
+#' }
+#' @source \urlhttps {https://maps.zh.ch/}
+"gemeinde_zh"
