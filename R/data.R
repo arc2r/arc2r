@@ -66,14 +66,14 @@
 #'
 #'
 #' }
-#' @source \urlhttps://map.geo.admin.ch}
+#' @source \urlhttps {https://s.geo.admin.ch/7e80a8bd28}
 "are_waedenswil"
 
 
 #' Train stations locations in Switzerland
 #'
 #' The dataset contains a collection of point features that represent
-#' the locations of the train stations accross the country of Switzerland
+#' the locations of the train stations across the country of Switzerland
 #'
 #'
 #'
@@ -85,5 +85,24 @@
 #'
 #'
 #' }
-#' @source \urlhttps://map.geo.admin.ch}
+#' @source \urlhttps {://map.geo.admin.ch}
 "haltestelle_bahn"
+
+
+#' Bicycle parking facilities in the canton of Zurich
+#'
+#' The dataset contains a collection of point features that represent
+#' the locations of the bicycle parking facilities in the canton of Zurich
+#'
+#'
+#'
+#'
+#'
+#' @format Simple feature collection with 511 features and 28 fields
+#' \describe{
+#'   \item{name}{Name of the train station}
+#'
+#'
+#' }
+#' @source \urlhttps {http://maps.zh.ch}
+"veloparkierungsanlagen_zh"
