@@ -1,6 +1,8 @@
 reference:
 - title: Raster
   contents:
+  - pop_india2000
+  - pop_india2010
 
 
 - title: Vector
@@ -8,8 +10,10 @@ reference:
   contents:
   - badeplaetze_zh
   - haltestelle_bahn
+  - veloparkierungsanlagen_zh
 - subtitle: Line datasets
   contents:
+  - mountainBikes_routes
 - subtitle: Polygon datasets
   contents:
   - gemeindegrenzen_zh

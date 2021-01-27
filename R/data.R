@@ -46,7 +46,7 @@
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection 71 features and 6 fields
 #' \describe{
 #'   \item{x_coord}{X coordinate in CH1903+LV95}
@@ -61,31 +61,103 @@
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection 13 features and 5 fields
 #' \describe{
 #'   \item{KLASSE}{Transport connection categorised in 4 main classes}
 #'
 #'
 #' }
-#' @source \urlhttps://map.geo.admin.ch}
+#' @source \urlhttps {https://s.geo.admin.ch/7e80a8bd28}
 "are_waedenswil"
 
 
 #' Train stations locations in Switzerland
 #'
 #' The dataset contains a collection of point features that represent
-#' the locations of the train stations accross the country of Switzerland
+#' the locations of the train stations across the country of Switzerland
 #'
 #'
 #'
 #'
-#'1
+#'
 #' @format Simple feature collection with 3134 features and 16 fields
 #' \describe{
 #'   \item{name}{Name of the train station}
 #'
 #'
 #' }
-#' @source \urlhttps://map.geo.admin.ch}
+#' @source \urlhttps {https://map.geo.admin.ch}
 "haltestelle_bahn"
+
+
+#' Bicycle parking facilities in the canton of Zurich
+#'
+#' The dataset contains a collection of point features that represent
+#' the locations of the bicycle parking facilities in the canton of Zurich
+#'
+#'
+#'
+#'
+#'
+#' @format Simple feature collection with 511 features and 28 fields
+#' \describe{
+#'   \item{name}{}
+#'
+#'
+#' }
+#' @source \urlhttps {http://maps.zh.ch}
+"veloparkierungsanlagen_zh"
+
+
+#' Mountain bike routes in Switzerland
+#'
+#' The dataset contains a line spatial feature that depicts all the mountain bike routes in Switzerland
+#'
+#'
+#'
+#'
+#'
+#' @format Simple feature collection with 286 features and 29 fields
+#' \describe{
+#'   \item{beschreib}{Description of the mountain bike route - Starting point to End point}
+#'
+#'
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch}
+"mountainBikes_routes"
+
+
+#' India's Population in 2000
+#'
+#' The dataset depicts India’s population at 2000 timestamp
+#'
+#'
+#'
+#'
+#'
+#' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
+#' \describe{
+#'   \item{}{}
+#'
+#'
+#' }
+#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+"pop_india2000"
+
+#' India's Population in 2010
+#'
+#' The dataset depicts India’s population at 2010 timestamp
+#'
+#'
+#'
+#'
+#'
+#' @format RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
+#' \describe{
+#'   \item{}{}
+#'
+#'
+#' }
+#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+"pop_india2010"
