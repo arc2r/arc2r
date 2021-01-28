@@ -1,14 +1,12 @@
-Package: burningData
+Package: arc2rData
 Type: Package
-Title: Provides the GeoData for the BurningBridges Book
+Title: Provides the Geodata for the arc2r-Book "All things R Spatial: An Introduction to Spatial R for recovering ArcGIS Users"
 Version: 0.1.22
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
-Description: In the book "BurningBridges"
-        (https://github.com/ratnanil/spatialR_for_ArcGIS_Users) we
-        describe methods how ArcGIS Geoprocessing Tools can be
-        replicated using only R and opensource packages (no
-        R-Arcgis-Bridge, hence the name).
+Description: In the book "All things R Spatial: An Introduction to Spatial R for recovering ArcGIS Users"
+        \url{https://arc2r.github.io/book/} we describe methods how ArcGIS Tools and Workflows can be
+        replicated using only R and opensource packages.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
