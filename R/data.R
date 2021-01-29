@@ -197,4 +197,4 @@
 #'   \item{OBJEKTART}{It differentiates the depicted polygon features into Cantons (Kanton) and Districts (Bezirke)}
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch/}
-"Bezirke"
+"bezirke"
