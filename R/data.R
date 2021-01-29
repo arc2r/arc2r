@@ -235,3 +235,33 @@
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch/}
 "kantonsgebiet"
+
+#' SMR50_kgrs_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_kgrs_mosaic"
+
+#' SMR50_komb_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_komb_mosaic"
+
+#' SMR50_krel_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_krel_mosaic"

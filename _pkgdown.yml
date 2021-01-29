@@ -5,6 +5,9 @@ reference:
   - pop_india2010
   - swissAlti3D
   - recycling_raster
+  - smr50_kgrs_mosaic
+  - smr50_komb_mosaic
+  - smr50_krel_mosaic
 
 - title: Vector
 - subtitle: Point datasets
@@ -19,7 +22,7 @@ reference:
 
 - subtitle: Polygon datasets
   contents:
-  - gemeindegrenzen_zh
+  #- gemeindegrenzen_zh
   - gemeinde_zh
   - are_waedenswil
   - kantonsgebiet
