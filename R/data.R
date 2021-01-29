@@ -82,7 +82,7 @@
 #'
 #' }
 #' @source \url{https://map.geo.admin.ch}
-#' plot(sf::st_geometry(haltestelle_bahn))
+#' #plot(sf::st_geometry(haltestelle_bahn))
 "haltestelle_bahn"
 
 
