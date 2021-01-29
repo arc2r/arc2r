@@ -199,15 +199,39 @@
 #' @source \urlhttps {https://map.geo.admin.ch/}
 "bezirke"
 
-#' SwissAlti3D with resolution: 0.5, 0.5  (x, y) and dimensions: 3202, 3126, 10009452  (nrow, ncol, ncell)
+#' SwissAlti3D
 #'
 #' The dataset depicts the digital elevation model for the extent of the country of Switzerland
 #'
 #'
-#' @format RasterLayer
+#' @format RasterLayer with resolution: 0.5, 0.5  (x, y) and dimensions: 3202, 3126, 10009452  (nrow, ncol, ncell)
 #' \describe{
 #'   \item{}{}
 #'   \item{}{}
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch/}
 "swissAlti3D"
+
+#' Recycling_raster
+#'
+#' The dataset depicts the recycling facilities in the city of Wädenswil (Canton of Zurich, Switzerland).
+#'
+#'
+#' @format RasterLayer with dimensions : 228, 222, 50616  (nrow, ncol, ncell) and resolution : 25, 25  (x, y)
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://modul-agi.github.io/HS20/}
+"recycling_raster"
+
+#' Kantonsgebiet
+#'
+#'
+#' @format Simple feature collection with 56 features and 22 fields
+#' \describe{
+#'   \item{name}{Name of every Canton in Switzerland}
+#'   \item{Shape_Area}{Total area of every depicted polygon}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"kantonsgebiet"
