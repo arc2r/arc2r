@@ -188,7 +188,7 @@
 
 #' Bezirke
 #'
-#' The dataset depicts the destricts (Bezirke) of every canton of the country of Switzerland.
+#' The dataset depicts the districts (Bezirke) of every canton of the country of Switzerland.
 #'
 #'
 #' @format Simple feature collection with 192 features and 4 fields
@@ -198,3 +198,16 @@
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch/}
 "bezirke"
+
+#' SwissAlti3D with resolution: 0.5, 0.5  (x, y) and dimensions: 3202, 3126, 10009452  (nrow, ncol, ncell)
+#'
+#' The dataset depicts the digital elevation model for the extent of the country of Switzerland
+#'
+#'
+#' @format RasterLayer
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"swissAlti3D"
