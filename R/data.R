@@ -185,3 +185,16 @@
 #' }
 #' @source \urlhttps {https://cran.r-project.org/web/packages/spData/index.html}
 "eire"
+
+#' Bezirke
+#'
+#' The dataset depicts the destricts (Bezirke) of every canton of the country of Switzerland.
+#'
+#'
+#' @format Simple feature collection with 192 features and 4 fields
+#' \describe{
+#'   \item{NAME}{Name of every canton and as well as it's respective districts (Bezirke)}
+#'   \item{OBJEKTART}{It differentiates the depicted polygon features into Cantons (Kanton) and Districts (Bezirke)}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"Bezirke"
