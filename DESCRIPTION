@@ -19,8 +19,6 @@ Suggests:
   terra,
   rgdal,
   tiff,
-  bookdown,
-  rmarkdown,
   tmap,
   gstat,
   stars
