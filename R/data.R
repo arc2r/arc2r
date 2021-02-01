@@ -82,7 +82,7 @@
 #'
 #' }
 #' @source \url{https://map.geo.admin.ch}
-#' plot(sf::st_geometry(haltestelle_bahn))
+#' #plot(sf::st_geometry(haltestelle_bahn))
 "haltestelle_bahn"
 
 
@@ -185,3 +185,83 @@
 #' }
 #' @source \urlhttps {https://cran.r-project.org/web/packages/spData/index.html}
 "eire"
+
+#' Bezirke
+#'
+#' The dataset depicts the districts (Bezirke) of every canton of the country of Switzerland.
+#'
+#'
+#' @format Simple feature collection with 192 features and 4 fields
+#' \describe{
+#'   \item{NAME}{Name of every canton and as well as it's respective districts (Bezirke)}
+#'   \item{OBJEKTART}{It differentiates the depicted polygon features into Cantons (Kanton) and Districts (Bezirke)}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"bezirke"
+
+#' SwissAlti3D
+#'
+#' The dataset depicts the digital elevation model for the extent of the country of Switzerland
+#'
+#'
+#' @format RasterLayer with resolution: 0.5, 0.5  (x, y) and dimensions: 3202, 3126, 10009452  (nrow, ncol, ncell)
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"swissAlti3D"
+
+#' Recycling_raster
+#'
+#' The dataset depicts the recycling facilities in the city of Wädenswil (Canton of Zurich, Switzerland).
+#'
+#'
+#' @format RasterLayer with dimensions : 228, 222, 50616  (nrow, ncol, ncell) and resolution : 25, 25  (x, y)
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://modul-agi.github.io/HS20/}
+"recycling_raster"
+
+#' Kantonsgebiet
+#'
+#'
+#' @format Simple feature collection with 56 features and 22 fields
+#' \describe{
+#'   \item{name}{Name of every Canton in Switzerland}
+#'   \item{Shape_Area}{Total area of every depicted polygon}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"kantonsgebiet"
+
+#' SMR50_kgrs_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_kgrs_mosaic"
+
+#' SMR50_komb_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_komb_mosaic"
+
+#' SMR50_krel_mosaic
+#'
+#' @format
+#' \describe{
+#'   \item{}{}
+#'   \item{}{}
+#' }
+#' @source \urlhttps {https://map.geo.admin.ch/}
+"smr50_krel_mosaic"
