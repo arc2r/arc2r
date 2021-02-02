@@ -14,16 +14,18 @@ Imports:
   raster, 
   sf
 Suggests: 
-  tidyverse,
-  raster,
-  terra,
-  rgdal,
-  tiff,
-  tmap,
-  gstat,
-  stars
+    tidyverse,
+    raster,
+    terra,
+    rgdal,
+    tiff,
+    tmap,
+    gstat,
+    stars,
+    spelling
 Depends: R (>= 2.10)
 RoxygenNote: 7.1.1
 Date: 2021-01-27
 URL: https://arc2r.github.io/arc2r/, https://github.com/arc2r/arc2r/
 BugReports: https://github.com/arc2r/arc2r/issues
+Language: en-US
