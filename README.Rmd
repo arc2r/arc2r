@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Actions Status](https://github.com/arc2r/book/workflows/bookdown/badge.svg)](https://github.com/arc2r/book/actions)
 [![Actions Status](https://github.com/arc2r/arc2r/workflows/pkgdown/badge.svg)](https://github.com/arc2r/arc2r/actions)
-[![Actions Status](https://github.com/arc2r/arc2r/workflows/check-release/badge.svg)](https://github.com/arc2r/arc2r/actions)
+[![Actions Status](https://github.com/arc2r/arc2r/workflows/R-CMD-check/badge.svg)](https://github.com/arc2r/arc2r/actions)
 <!-- badges: end -->
 
 The goal of arc2r is to ...
@@ -37,7 +37,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(arc2r)
-## basic example code
 ```
 
+@todo add readme
+@body add some description on what this "package" is about and give an introduction to the book
 
