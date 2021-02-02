@@ -3,19 +3,19 @@ navbar:
   structure:
     left:
     - home
-    - intro
     - reference
-    - articles
-    - tutorials
-    - news
+    - book
     right: github
   components:
     home:
       icon: fas fa-home fa-lg
       href: index.html
     reference:
-      text: Reference
+      text: Datasets
       href: reference/index.html
+    book:
+      text: Book
+      href: https://arc2r.github.io/book/
     github:
       icon: fab fa-github fa-lg
       href: https://github.com/arc2r/arc2r/
