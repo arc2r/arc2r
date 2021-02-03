@@ -204,12 +204,8 @@
 #' The dataset depicts the digital elevation model for the extent of the country of Switzerland
 #'
 #'
-#' @format RasterLayer with resolution: 0.5, 0.5  (x, y) and dimensions: 3202, 3126, 10009452  (nrow, ncol, ncell)
-#' \describe{
-#'   \item{}{}
-#'   \item{}{}
-#' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @format RasterLayer with resolution: 10, 10  (x, y) and dimensions: 100, 100, 10000  (nrow, ncol, ncell)
+#' @source \urlhttps {https://cms.geo.admin.ch/Topo/swissalti3d/swissalti3dgeotifflv95.zip}
 "swissAlti3D"
 
 #' Recycling_raster
