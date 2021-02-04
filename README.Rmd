@@ -29,7 +29,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("arc2r/data")
+devtools::install_github("arc2r/arc2r")
 ```
 ## Example
 
@@ -39,6 +39,8 @@ This is a basic example which shows you how to solve a common problem:
 library(arc2r)
 ```
 
-@todo add readme
-@body add some description on what this "package" is about and give an introduction to the book
+```
+//todo add readme
+//body add some description on what this "package" is about and give an introduction to the book
+```
 
