@@ -253,3 +253,19 @@
 #' }
 #' @source \url{https://map.geo.admin.ch/}
 "smr50_krel_mosaic"
+
+
+
+#' Chessboard
+#'
+#' A chessboard in an `sf` format with 64 features and 5 fields, generated from
+#' scratch
+#'
+#' @format
+#' \describe{
+#'   \item{colour}{The colour of the field}
+#'   \item{namex}{}
+#'   \item{namey}{}
+#'   \item{name}{The name of the field}
+#'   \item{namex}{The integer of the field}
+#' }
