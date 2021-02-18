@@ -132,7 +132,7 @@
 #'
 #'
 #' }
-#' @source \urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+#' @source \url{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 "pop_india2000"
 
 #' India's Population in 2010
@@ -160,7 +160,7 @@
 #'   \item{kanton}{Name of the Canton to which the municipality belongs}
 #'   \item{bezirk}{Name of the district (Bezirk)}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch}
+#' @source \url{https://map.geo.admin.ch}
 "zweitwohnung_gemeinden"
 
 
@@ -174,7 +174,7 @@
 #'   \item{names}{Name of each of the county}
 #'   \item{INCOME}{Average income of the respective county}
 #' }
-#' @source \urlhttps {https://cran.r-project.org/web/packages/spData/index.html}
+#' @source \url{https://cran.r-project.org/web/packages/spData/index.html}
 "eire"
 
 #' Bezirke
@@ -187,7 +187,7 @@
 #'   \item{NAME}{Name of every canton and as well as it's respective districts (Bezirke)}
 #'   \item{OBJEKTART}{It differentiates the depicted polygon features into Cantons (Kanton) and Districts (Bezirke)}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @source \url{https://map.geo.admin.ch/}
 "bezirke"
 
 #' SwissAlti3D
@@ -196,7 +196,7 @@
 #'
 #'
 #' @format RasterLayer with resolution: 10, 10  (x, y) and dimensions: 100, 100, 10000  (nrow, ncol, ncell)
-#' @source \urlhttps {https://cms.geo.admin.ch/Topo/swissalti3d/swissalti3dgeotifflv95.zip}
+#' @source \url{https://cms.geo.admin.ch/Topo/swissalti3d/swissalti3dgeotifflv95.zip}
 "swissAlti3D"
 
 #' Recycling_raster
@@ -209,7 +209,7 @@
 #'   \item{}{}
 #'   \item{}{}
 #' }
-#' @source \urlhttps {https://modul-agi.github.io/HS20/}
+#' @source \url{https://modul-agi.github.io/HS20/}
 "recycling_raster"
 
 #' Kantonsgebiet
@@ -219,7 +219,7 @@
 #' \describe{
 #'   \item{name}{Name of every Canton in Switzerland}
 #' }
-#' @source \urlhttps {https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
+#' @source \url{https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
 "kantonsgebiet"
 
 #' SMR50_kgrs_mosaic
@@ -229,7 +229,7 @@
 #'   \item{}{}
 #'   \item{}{}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @source \url{https://map.geo.admin.ch/}
 "smr50_kgrs_mosaic"
 
 #' SMR50_komb_mosaic
@@ -239,7 +239,7 @@
 #'   \item{}{}
 #'   \item{}{}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @source \url{https://map.geo.admin.ch/}
 "smr50_komb_mosaic"
 
 #' SMR50_krel_mosaic
@@ -249,5 +249,5 @@
 #'   \item{}{}
 #'   \item{}{}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @source \url{https://map.geo.admin.ch/}
 "smr50_krel_mosaic"
