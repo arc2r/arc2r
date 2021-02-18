@@ -1,7 +1,7 @@
 
-kantonsgebiet <- sf::st_read("data-raw/kantonsgebiet/Kantonsgebiet.shp")
+kantonsgebiet <- sf::st_read("data-raw/kantonsgebiet/swissBOUNDARIES3D_1_3_TLM_KANTONSGEBIET.shp")
 
-kantonsgebiet <- kantonsgebiet[,c("name")]
+kantonsgebiet <- kantonsgebiet[,c("NAME")]
 
 kantonsgebiet <- sf::st_zm(kantonsgebiet)
 

@@ -215,11 +215,13 @@
 #' Kantonsgebiet
 #'
 #'
-#' @format Simple feature collection with 56 features and 22 fields
+#' @format Simple feature collection with 51 features and 1 fields
 #' \describe{
-#'   \item{name}{Name of every Canton in Switzerland}
+#'   \item{NAME}{Name of every Canton in Switzerland}
 #' }
 #' @source \url{https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
+#' @examples
+#' plot(sf::st_geometry(kantonsgebiet))
 "kantonsgebiet"
 
 #' SMR50_kgrs_mosaic

@@ -2,7 +2,7 @@ Package: arc2r
 Type: Package
 Title: Provides the Geodata for the arc2r-Book "All things R Spatial:
         An Introduction to Spatial R for recovering ArcGIS Users"
-Version: 0.1.43
+Version: 0.1.44
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
 Description: In the book "All things R Spatial: An Introduction to
