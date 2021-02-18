@@ -5,7 +5,7 @@
 \alias{are_waedenswil}
 \title{Public Transport connection quality in the city of Wädenswil}
 \format{
-Simple feature collection 71 features and 6 fields
+Simple feature collection 13 features and 5 fields
 \describe{
   \item{KLASSE}{Transport connection categorised in 4 main classes}
 
@@ -13,15 +13,13 @@ Simple feature collection 71 features and 6 fields
 }
 }
 \source{
-
+\url{https://s.geo.admin.ch/7e80a8bd28}
+plot(sf::st_geometry(are_waedenswil))
 }
 \usage{
 are_waedenswil
 }
 \description{
-The dataset contains a simple feature collection with 13 features and 5 fields
-}
-\details{
-1
+Public Transport connection quality in the city of Wädenswil
 }
 \keyword{datasets}
