@@ -72,7 +72,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">arc2r</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.36</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.44</span>
       </span>
     </div>
 
@@ -125,16 +125,18 @@
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Simple feature collection with 56 features and 22 fields</p><dl>
-  <dt>name</dt><dd><p>Name of every Canton in Switzerland</p></dd>
-  <dt>Shape_Area</dt><dd><p>Total area of every depicted polygon</p></dd>
+    <p>Simple feature collection with 51 features and 1 fields</p><dl>
+  <dt>NAME</dt><dd><p>Name of every Canton in Switzerland</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>https://map.geo.admin.ch/</p>
+    <p><a href='https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D'>https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D</a></p>
 
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/graphics/plot.default.html'>plot</a></span><span class='op'>(</span><span class='fu'>sf</span><span class='fu'>::</span><span class='fu'><a href='https://r-spatial.github.io/sf/reference/st_geometry.html'>st_geometry</a></span><span class='op'>(</span><span class='va'>kantonsgebiet</span><span class='op'>)</span><span class='op'>)</span>
+</div><div class='img'><img src='kantonsgebiet-1.png' alt='' width='700' height='433' /></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
