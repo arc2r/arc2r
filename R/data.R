@@ -227,7 +227,6 @@
 #' @format Simple feature collection with 56 features and 22 fields
 #' \describe{
 #'   \item{name}{Name of every Canton in Switzerland}
-#'   \item{Shape_Area}{Total area of every depicted polygon}
 #' }
 #' @source \urlhttps {https://map.geo.admin.ch/}
 "kantonsgebiet"
