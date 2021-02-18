@@ -44,8 +44,7 @@ reference:
 
 - subtitle: Polygon datasets
   contents:
-  #- gemeindegrenzen_zh
-  - gemeinde_zh
+  - gemeindegrenzen_zh
   - are_waedenswil
   - kantonsgebiet
   - bezirke
