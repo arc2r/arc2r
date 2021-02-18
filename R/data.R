@@ -51,6 +51,7 @@
 #'   \item{gewaesser}{Water "body" name near to which the "spot lies"}
 #' }
 #' @source \url{https://opendata.swiss/de/dataset/badeplatze1}
+#' @examples
 #' plot(sf::st_geometry(badeplaetze_zh))
 "badeplaetze_zh"
 
@@ -65,6 +66,7 @@
 #'
 #' }
 #' @source \url{https://s.geo.admin.ch/7e80a8bd28}
+#' @examples
 #' plot(sf::st_geometry(are_waedenswil))
 "are_waedenswil"
 
@@ -82,6 +84,7 @@
 #'
 #' }
 #' @source \url{https://map.geo.admin.ch}
+#' @examples
 #' #plot(sf::st_geometry(haltestelle_bahn))
 "haltestelle_bahn"
 
@@ -99,6 +102,7 @@
 #'
 #' }
 #' @source \url{http://maps.zh.ch}
+#' @examples
 #' plot(sf::st_geometry(veloparkierungsanlagen_zh))
 "veloparkierungsanlagen_zh"
 
@@ -143,19 +147,6 @@
 #' @source \url{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 "pop_india2010"
 
-
-#' Municipalities (Gemeinden) in the canton of Zurich
-#'
-#' The dataset depicts all the municipalities (Gemeinden) in the canton of Zurich
-#'
-#'
-#' @format Simple feature collection with 166 features and 7 fields
-#' \describe{
-#'   \item{gemeindena}{Name of the Municipality (Gemeinde)}
-#'   \item{bezirksna}{Name of the District (Bezirk)}
-#' }
-#' @source \urlhttps {https://maps.zh.ch/}
-"gemeinde_zh"
 
 
 #' Zweitwohnung_Gemeinden
@@ -228,7 +219,7 @@
 #' \describe{
 #'   \item{name}{Name of every Canton in Switzerland}
 #' }
-#' @source \urlhttps {https://map.geo.admin.ch/}
+#' @source \urlhttps {https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
 "kantonsgebiet"
 
 #' SMR50_kgrs_mosaic
