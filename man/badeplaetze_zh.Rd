@@ -14,12 +14,14 @@ Simple feature collection 71 features and 6 fields
 }
 \source{
 \url{https://opendata.swiss/de/dataset/badeplatze1}
-plot(sf::st_geometry(badeplaetze_zh))
 }
 \usage{
 badeplaetze_zh
 }
 \description{
 The dataset contains 71 swimming spots within the Canton of Zürich
+}
+\examples{
+plot(sf::st_geometry(badeplaetze_zh))
 }
 \keyword{datasets}

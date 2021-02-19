@@ -12,7 +12,7 @@ Simple feature collection with 192 features and 4 fields
 }
 }
 \source{
-\urlhttps {https://map.geo.admin.ch/}
+\url{https://map.geo.admin.ch/}
 }
 \usage{
 bezirke

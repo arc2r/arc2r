@@ -14,12 +14,14 @@ Simple feature collection 13 features and 5 fields
 }
 \source{
 \url{https://s.geo.admin.ch/7e80a8bd28}
-plot(sf::st_geometry(are_waedenswil))
 }
 \usage{
 are_waedenswil
 }
 \description{
 Public Transport connection quality in the city of Wädenswil
+}
+\examples{
+plot(sf::st_geometry(are_waedenswil))
 }
 \keyword{datasets}
