@@ -13,7 +13,7 @@ Simple feature collection with 2354 features and 14 fields
 }
 }
 \source{
-\urlhttps {https://map.geo.admin.ch}
+\url{https://map.geo.admin.ch}
 }
 \usage{
 zweitwohnung_gemeinden

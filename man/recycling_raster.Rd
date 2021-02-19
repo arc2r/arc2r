@@ -12,7 +12,7 @@ RasterLayer with dimensions : 228, 222, 50616  (nrow, ncol, ncell) and resolutio
 }
 }
 \source{
-\urlhttps {https://modul-agi.github.io/HS20/}
+\url{https://modul-agi.github.io/HS20/}
 }
 \usage{
 recycling_raster

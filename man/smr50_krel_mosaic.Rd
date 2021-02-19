@@ -11,7 +11,7 @@
 }
 }
 \source{
-\urlhttps {https://map.geo.admin.ch/}
+\url{https://map.geo.admin.ch/}
 }
 \usage{
 smr50_krel_mosaic

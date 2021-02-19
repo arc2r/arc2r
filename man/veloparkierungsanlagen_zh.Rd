@@ -14,7 +14,6 @@ Simple feature collection with 511 features and 28 fields
 }
 \source{
 \url{http://maps.zh.ch}
-plot(sf::st_geometry(veloparkierungsanlagen_zh))
 }
 \usage{
 veloparkierungsanlagen_zh
@@ -22,5 +21,8 @@ veloparkierungsanlagen_zh
 \description{
 The dataset contains a collection of point features that represent
 the locations of the bicycle parking facilities in the canton of Zurich
+}
+\examples{
+plot(sf::st_geometry(veloparkierungsanlagen_zh))
 }
 \keyword{datasets}

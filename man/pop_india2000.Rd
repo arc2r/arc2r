@@ -13,7 +13,7 @@ RasterLayer with dimensions : 690, 701, 483690  (nrow, ncol, ncell)
 }
 }
 \source{
-\urlhttps {https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
+\url{https://sedac.ciesin.columbia.edu/data/collection/gpw-v4}
 }
 \usage{
 pop_india2000

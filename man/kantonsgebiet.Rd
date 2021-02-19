@@ -5,18 +5,21 @@
 \alias{kantonsgebiet}
 \title{Kantonsgebiet}
 \format{
-Simple feature collection with 56 features and 22 fields
+Simple feature collection with 51 features and 1 fields
 \describe{
-  \item{name}{Name of every Canton in Switzerland}
+  \item{NAME}{Name of every Canton in Switzerland}
 }
 }
 \source{
-\urlhttps {https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
+\url{https://shop.swisstopo.admin.ch/de/products/landscape/boundaries3D}
 }
 \usage{
 kantonsgebiet
 }
 \description{
 Kantonsgebiet
+}
+\examples{
+plot(sf::st_geometry(kantonsgebiet))
 }
 \keyword{datasets}

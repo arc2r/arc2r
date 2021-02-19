@@ -8,7 +8,7 @@
 RasterLayer with resolution: 10, 10  (x, y) and dimensions: 100, 100, 10000  (nrow, ncol, ncell)
 }
 \source{
-\urlhttps {https://cms.geo.admin.ch/Topo/swissalti3d/swissalti3dgeotifflv95.zip}
+\url{https://cms.geo.admin.ch/Topo/swissalti3d/swissalti3dgeotifflv95.zip}
 }
 \usage{
 swissAlti3D

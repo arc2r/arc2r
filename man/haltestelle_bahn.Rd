@@ -14,7 +14,6 @@ Simple feature collection with 3134 features and 16 fields
 }
 \source{
 \url{https://map.geo.admin.ch}
-#plot(sf::st_geometry(haltestelle_bahn))
 }
 \usage{
 haltestelle_bahn
@@ -22,5 +21,8 @@ haltestelle_bahn
 \description{
 The dataset contains a collection of point features that represent
 the locations of the train stations across the country of Switzerland
+}
+\examples{
+#plot(sf::st_geometry(haltestelle_bahn))
 }
 \keyword{datasets}
