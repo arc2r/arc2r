@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# arc2r
+# arc2r: A Datasets Package
 
 <!-- badges: start -->
 [![Actions Status](https://github.com/arc2r/book/workflows/bookdown/badge.svg)](https://github.com/arc2r/book/actions)
@@ -21,26 +21,23 @@ knitr::opts_chunk$set(
 [![Actions Status](https://github.com/arc2r/arc2r/workflows/R-CMD-check/badge.svg)](https://github.com/arc2r/arc2r/actions)
 <!-- badges: end -->
 
-The goal of arc2r is to ...
+This `R` Package contains all the datasets that are used in the book "*All things `R` Spatial: An introduction to spatial-R for recovering ArcGIS users*". 
+You can install it via github with the following command:
 
-## Installation
-
-You can install the development version from [GitHub](https://github.com/) with:
-
-``` r
+```{r, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("arc2r/arc2r")
 ```
-## Example
 
-This is a basic example which shows you how to solve a common problem:
+Once installed, you have access to all datasets uses in the book. This can be very helpful if you want to follow along with the book. See following example of loading a dataset from the package and plotting it.     
 
-```{r example}
+
+```{r}
 library(arc2r)
-```
 
-```
-//todo add readme
-//body add some description on what this "package" is about and give an introduction to the book
+data("kantonsgebiet")
+
+plot(kantonsgebiet)
+
 ```
 
