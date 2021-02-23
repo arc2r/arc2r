@@ -1,7 +1,6 @@
 Title: arc2r: All things R Spatial
 Binding: follow_along_skeleton
 OpenFiles: Readme.Rmd
-Icon: icon.png
 
 Parameter: chapter
 Widget: SelectInput

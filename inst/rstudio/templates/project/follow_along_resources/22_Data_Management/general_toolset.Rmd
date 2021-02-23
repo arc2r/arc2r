@@ -1,10 +1,4 @@
 
-```{r echo = FALSE, eval = FALSE}
-## knitr::include_graphics("images/network/Data Management_General.png")
-
-
-```
-
 ```{r echo = FALSE}
 library(arc2r)
 library(sf)
@@ -85,7 +79,7 @@ head(kantonsgebiet)
 ggplot(kantonsgebiet) + geom_sf() # depicting all the 26 Cantons of Switzerland
 
 # Dissolving all the cantons into one unified area
-kantonsgebiet_dissolved <- st_union(kantonsgebiet)
+kantonsgebiet_dissolved <- st_union(kantonsgebiet) # use of the sf__st_union() function
 head(kantonsgebiet_dissolved)
 
 # Plot the dissolved output
@@ -95,7 +89,14 @@ ggplot(kantonsgebiet_dissolved) + geom_sf()
 
 ```
 
-```{r }
-duplicated(kantonsgebiet)
+```{r findIdentical}
+# create the duplicates
+addDupli <- kantonsgebiet[1:3,]
+
+# Combine it with the original dataset (kantonsgebiet)
+kantonDuplic <- rbind(kantonsgebiet, addDupli)
+
+# Examine if there are any identical values
+ident_results <- st_equals(kantonDuplic)
 ```
 

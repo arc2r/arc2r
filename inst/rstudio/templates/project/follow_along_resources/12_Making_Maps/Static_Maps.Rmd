@@ -80,11 +80,6 @@ ggplot(gemeindegrenzen_zh) +
 ## 
 
 
-```
-
-```{r echo = FALSE}
-# Including manually since this is causing memory issues
-knitr::include_graphics("images/raster_df.png")
 
 
 ```
@@ -100,11 +95,6 @@ knitr::include_graphics("images/raster_df.png")
 ## 
 
 
-```
-
-```{r echo = FALSE}
-# Including manually since this is causing memory issues
-knitr::include_graphics("images/raster_df2.png")
 
 
 ```

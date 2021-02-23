@@ -1,0 +1,21 @@
+
+```{r }
+library(sf)
+
+ARE_waedenswil <- read_sf("sample_data/ARE_waedenswil.shp")
+
+ARE_waedenswil
+
+
+```
+
+```{r }
+is.data.frame(ARE_waedenswil)
+
+
+```
+
+```{r }
+plot(ARE_waedenswil)
+```
+

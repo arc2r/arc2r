@@ -3,10 +3,6 @@
 library(dplyr)
 
 
-```
-
-```{r joins, fig.cap= "Join operations",echo=F, out.width = "500px",fig.align='center'}
-knitr::include_graphics("images/joins.png")
 
 
 ```
