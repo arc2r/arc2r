@@ -1,0 +1,10 @@
+Title: arc2r: All things R Spatial
+Binding: follow_along_skeleton
+OpenFiles: Readme.Rmd
+
+Parameter: chapter
+Widget: SelectInput
+Label: Which chapter do you want to work on?
+Fields: 11_Data, 12_Making_Maps, 13_Select, 21_Analysis, 22_Data_Management, 23_Spatial_Analyst, 24_Spatial_Statistics, 25_Image_Analyst, 26_3D_Analyst, 33_Topology_Rules
+Default: 11_Data
+Position: left
