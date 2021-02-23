@@ -34,10 +34,11 @@ Once installed, you have access to all datasets uses in the book. This can be ve
 
 ```{r}
 library(arc2r)
+library(sf)
 
 data("kantonsgebiet")
 
-plot(kantonsgebiet)
+plot(kantonsgebiet["NAME"])
 
 ```
 
