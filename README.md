@@ -14,3 +14,10 @@ Status](https://github.com/arc2r/arc2r/workflows/pkgdown/badge.svg)](https://git
 
 Please to got [arc2r.github.io/arc2r](arc2r.github.io/arc2r/) to see what this repo is about.
 
+
+
+Attribution: 
+
+Icon (used within the RStudio Template): Switzerland map by Bence Bezeredy from the Noun Project
+
+
