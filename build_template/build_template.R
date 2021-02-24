@@ -1,6 +1,3 @@
-
-
-
 zipfile_path <- "build_template/book.zip"
 templatepath <- file.path("inst","rstudio", "templates", "project", "follow_along_resources")
 

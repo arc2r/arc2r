@@ -1,5 +1,5 @@
 
-```{r echo = FALSE}
+```{r echo = TRUE}
 library(arc2r)
 library(sf)
 library(ggplot2)
@@ -8,7 +8,7 @@ library(dplyr)
 
 ```
 
-```{r sort_BaseR}
+```{r sort_BaseR, echo = TRUE}
 
 # Read the dataset depicting the districts (Bezirke) in the country of Switzerland
 data("bezirke")
@@ -25,7 +25,7 @@ head(bezirke_desc)
 
 ```
 
-```{r sort_dplyr}
+```{r sort_dplyr, echo = TRUE}
 
 # sort the dataset based on the Area in ascending order
 bezirke_arrange_asc <- arrange(bezirke,area_km2) # by default the function sorts in ascendind order
@@ -38,7 +38,7 @@ head(bezirke_arrange_desc)
 
 ```
 
-```{r }
+```{r echo = TRUE}
 # Reading the dataset that depicts all the swimming spots in the canton of Zurich
 data("badeplaetze_zh")
 
@@ -52,7 +52,7 @@ tracemem(swimming_spots_zh) # --> <000001F24AB616E8>
 
 ```
 
-```{r merge}
+```{r merge, echo = TRUE}
 
 # Using the dataset that depicts all the 26 Cantons of Switzerland
 data("kantonsgebiet")
@@ -72,7 +72,7 @@ ggplot(merged) + geom_sf() # depicting the product of the merge operation
 
 ```
 
-```{r dissolve_01}
+```{r dissolve_01, echo = TRUE}
 
 # The study area from the previous example
 head(kantonsgebiet)
@@ -89,7 +89,7 @@ ggplot(kantonsgebiet_dissolved) + geom_sf()
 
 ```
 
-```{r findIdentical}
+```{r findIdentical, echo = TRUE}
 # create the duplicates
 addDupli <- kantonsgebiet[1:3,]
 

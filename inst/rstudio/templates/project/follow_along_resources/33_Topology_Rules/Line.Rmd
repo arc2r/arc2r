@@ -1,5 +1,0 @@
-
-```{r echo = FALSE, fig.cap = "Source: @esri-topology"}
-knitr::include_graphics("images/topology_rules/1_2.jpg")
-```
-
