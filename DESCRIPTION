@@ -2,7 +2,7 @@ Package: arc2r
 Type: Package
 Title: Provides the Geodata for the arc2r-Book "All things R Spatial:
         An Introduction to Spatial R for recovering ArcGIS Users"
-Version: 0.1.65
+Version: 0.1.66
 Author: Nils Ratnaweera and Nikolaos Bakogiannis
 Maintainer: Nils Ratnaweera <ratnanil@zhaw.ch>
 Description: In the book "All things R Spatial: An Introduction to
@@ -14,7 +14,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: raster, sf
-Suggests: dplyr, gstat, mapview raster, readr, rgdal, stars, stringr,
+Suggests: dplyr, gstat, mapview, raster, readr, rgdal, stars, stringr,
         terra, tiff, tmap
 Depends: R (>= 2.10)
 RoxygenNote: 7.1.1
