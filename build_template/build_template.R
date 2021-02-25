@@ -1,6 +1,8 @@
 zipfile_path <- "build_template/book.zip"
 templatepath <- file.path("inst","rstudio", "templates", "project", "follow_along_resources")
 
+file.copy("build_template/Readme.Rmd",file.path(templatepath,"Readme.Rmd"))
+
 download.file("https://github.com/arc2r/templatefiles/archive/master.zip",zipfile_path)
 
 

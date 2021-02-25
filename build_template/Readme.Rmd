@@ -1,0 +1,11 @@
+
+
+## Follow Along
+
+Hi! It's really nice to have you here. If you are reading these lines, you are on the verge of following along the tutorials described in our book "All things R Spatial", which we host here: https://arc2r.github.io/book. You have installed the "arc2r" package, started a new RStudio project and selected our template project.
+
+In this template, you will find some R-Markdown files with the same code which is used in the book. Each Rmd-file is named after the chapter of which the code originates, so it should be easy to find the appropriate Rmd-File for the chapter you want to follow along. 
+
+If you have any questions or stumble into problems, please don't hesitate and file an issue on our repo: https://github.com/arc2r/book/issues
+
+Have fun!
