@@ -65,7 +65,7 @@
 #'
 #'
 #' }
-#' @source \url{https://s.geo.admin.ch/7e80a8bd28}
+#' @source \url{https://www.geocat.ch/geonetwork/srv/ger/md.viewer#/full_view/61a79435-b986-495e-b3ea-fe97c4abd558/tab/complete}
 #' @examples
 #' plot(sf::st_geometry(are_waedenswil))
 "are_waedenswil"
